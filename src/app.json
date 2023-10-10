@@ -2,7 +2,7 @@
     "id": "acfd3c96-15d9-4251-9a12-af58d9536b5f",
     "name": "Beyond-Barcodes-Item-Identifiers",
     "publisher": "BEYONDIT GmbH",
-    "version": "1.0.0.0",
+    "version": "1.0.1.0",
     "brief": "Beyond-Barcodes Extension.",
     "description": "Visit https://www.beyondit.gmbh/",
     "url": "https://beyondit.gmbh",
@@ -24,6 +24,10 @@
         "to": 60100
       }
     ],
+    "resourceExposurePolicy": {
+      "allowDownloadingSource": false,
+      "allowDebugging": true
+    },
     "runtime": "11.0",
     "features":  ["TranslationFile","NoImplicitWith"],
     "target": "Cloud"
